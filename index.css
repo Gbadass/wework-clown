@@ -187,7 +187,7 @@
 .s2m-p2,
 .s2m-p3{
   font-size: 12px;
-  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif; ;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif; 
 }
 .s2m-ldiv p{
   height: 100%;
@@ -203,4 +203,182 @@
 background-color: white;
 border: 1px solid rgb(222, 218, 218);
 border-radius: 3px;
+}
+
+.s3-div1{
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.s3-p1{
+  font-size: 30px;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif; 
+
+}
+
+.section3m{
+  display: flex;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+.s3-mcol1,
+.s3-mcol2,
+.s3-mcol3,
+.s3-mcol4{
+  width: 28%;
+  /* border: 1px solid black; */
+  height: 350px;
+  margin-left: 40px;
+
+}
+
+.s3-mcol1 img,
+.s3-mcol2 img,
+.s3-mcol3 img,
+.s3-mcol4 img{
+width: 100px;
+
+}
+
+.s3m-p1{
+  font-size: 20px;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif; 
+}
+
+.s3m-p2{
+  font-size: 18px;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+  color: gray;
+}
+
+.section4{
+  display: flex;
+  margin-left: 65px;
+}
+
+.s4-div1{
+  width: 60%;
+  height: 520px;
+  /* border: 1px solid black ; */
+  position: relative;
+  top: 40px;
+  right: -215px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.s4-div2{
+  width: 90%;
+  height: 550px;
+  /* border: 1px solid black ; */
+  position: absolute;
+}
+
+.s4-div2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.s4-div1 b{
+  font-size: 30px;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+  
+}
+
+.let-div{
+  margin-top: 55px;
+  margin-left: 50px;
+
+}
+
+.let2 p{
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+
+.let3 input{
+  padding: 16px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.let3 input::placeholder{
+  font-size: 17px;
+}
+
+.inp-div input{
+  width: 545px;
+}
+
+.let3 button{
+  padding: 15px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.section5{
+  /* border: 1px solid black; */
+  height: 460px;
+  margin-top: 200px;
+  display: flex;
+  /* margin-left: 50px; */
+  background-color: #f7f7f7;
+}
+
+.s5-col1{
+  width: 50%;
+  /* border: 1px solid red; */
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.s5-col2{
+  width: 60%;
+  /* border: 1px solid black; */
+}
+
+.s5-col1 p{
+  font-size: 18px;
+}
+
+.p3-div{
+  margin-top: 40px;
+}
+
+.p3-div p{
+  line-height: 25px;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+
+.p2-div b{
+  font-size: 30px;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+
+.p2-div{
+  /* margin-top: 0px; */
+}
+
+
+.p1-div p{
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+
+.section5 a{
+  text-decoration: none;
+  font-family:"Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+  color: blue;
+}
+
+.s5-col2 img{
+  width: 650px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-right: 50px;
+
 }
