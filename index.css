@@ -1,0 +1,27 @@
+*{
+  margin: 5px;
+}
+
+
+.wework{
+  font-size: 30px;
+  font-family: "Apercu",Avenir,-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,"Calibri","Roboto",Arial,sans-serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.s2 button{
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.s2 a{
+  color: black;
+  text-decoration: none;
+}
